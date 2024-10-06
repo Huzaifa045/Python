@@ -1,0 +1,3 @@
+Rydberg constant: 10967757 m⁻¹
+Final state (nf): 2
+Worst-case error: 0.010 nm

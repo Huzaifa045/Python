@@ -1,0 +1,2 @@
+Rydberg constant: 10973732.0
+Final state (nf): 2
