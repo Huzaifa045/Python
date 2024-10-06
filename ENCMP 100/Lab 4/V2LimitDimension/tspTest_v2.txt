@@ -1,0 +1,221 @@
+
+"The travelling salesman problem (also called the traveling salesperson
+problem or TSP) asks the following question: 'Given a list of cities and
+the distances between each pair of cities, what is the shortest possible
+route that visits each city exactly once and returns to the origin city?'
+It is an NP-hard problem in combinatorial optimization, important in
+theoretical computer science and operations research."
+
+- Wikipedia Contributors, "Travelling salesman problem",
+Wikipedia, The Free Encyclopedia, 10 October 2021.
+
+MAIN MENU
+0. Exit program
+1. Print database
+2. Limit dimension
+3. Plot one tour
+
+Choice (0-3)? 1
+
+NUM  FILE NAME  EDGE TYPE  DIMENSION  COMMENT
+  1  a280       EUC_2D           280  drilling problem (Ludwig)
+  2  ali535     GEO              535  535 Airports around the globe (Padberg/Rinaldi)
+  3  att48      ATT               48  48 capitals of the US (Padberg/Rinaldi)
+  4  att532     ATT              532  532-city problem (Padberg/Rinaldi)
+  5  bayg29     EXPLICIT          29  29 Cities in Bavaria, geographical distances (Groetschel,Juenger,Reinelt)
+  6  bays29     EXPLICIT          29  29 cities in Bavaria, street distances (Groetschel,Juenger,Reinelt)
+  7  berlin52   EUC_2D            52  52 locations in Berlin (Groetschel)
+  8  bier127    EUC_2D           127  127 Biergaerten in Augsburg (Juenger/Reinelt)
+  9  brazil58   EXPLICIT          58  58 cities in Brazil (Ferreira)
+ 10  brd14051   EUC_2D         14051  BR Deutschland in den Grenzen von 1989 (Bachem/Wottawa)
+ 11  brg180     EXPLICIT         180  Bridge tournament problem (Rinaldi)
+ 12  burma14    GEO               14  14-Staedte in Burma (Zaw Win)
+ 13  ch130      EUC_2D           130  130 city problem (Churritz)
+ 14  ch150      EUC_2D           150  150 city Problem (churritz)
+ 15  d1291      EUC_2D          1291  Drilling problem (Reinelt)
+ 16  d15112     EUC_2D         15112  Deutschland-Problem (A.Rohe)
+ 17  d1655      EUC_2D          1655  Drilling problem (Reinelt)
+ 18  d18512     EUC_2D         18512  Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa)
+ 19  d198       EUC_2D           198  Drilling problem (Reinelt)
+ 20  d2103      EUC_2D          2103  Drilling problem (Reinelt)
+ 21  d493       EUC_2D           493  Drilling problem (Reinelt)
+ 22  d657       EUC_2D           657  Drilling problem (Reinelt)
+ 23  dantzig42  EXPLICIT          42  42 cities (Dantzig)
+ 24  dsj1000    CEIL_2D         1000  Clustered random problem (Johnson)
+ 25  eil101     EUC_2D           101  101-city problem (Christofides/Eilon)
+ 26  eil51      EUC_2D            51  51-city problem (Christofides/Eilon)
+ 27  eil76      EUC_2D            76  76-city problem (Christofides/Eilon)
+ 28  fl1400     EUC_2D          1400  Drilling problem (Reinelt)
+ 29  fl1577     EUC_2D          1577  Drilling problem (Reinelt)
+ 30  fl3795     EUC_2D          3795  Drilling problem (Reinelt)
+ 31  fl417      EUC_2D           417  Drilling problem (Reinelt)
+ 32  fnl4461    EUC_2D          4461  Die 5 neuen Laender Deutschlands (Ex-DDR) (Bachem/Wottawa)
+ 33  fri26      EXPLICIT          26  26 Staedte (Fricker)
+ 34  gil262     EUC_2D           262  262-city problem (Gillet/Johnson)
+ 35  gr120      EXPLICIT         120  120 cities in Germany (Groetschel)
+ 36  gr137      GEO              137  America-Subproblem of 666-city TSP (Groetschel)
+ 37  gr17       EXPLICIT          17  17-city problem (Groetschel)
+ 38  gr202      GEO              202  Europe-Subproblem of 666-city TSP (Groetschel)
+ 39  gr21       EXPLICIT          21  21-city problem (Groetschel)
+ 40  gr229      GEO              229  Asia/Australia-Subproblem of 666-city TSP (Groetschel)
+ 41  gr24       EXPLICIT          24  24-city problem (Groetschel)
+ 42  gr431      GEO              431  Europe/Asia/Australia-Subproblem of 666-city TSP (Groetschel)
+ 43  gr48       EXPLICIT          48  48-city problem (Groetschel)
+ 44  gr666      GEO              666  666 cities around the world (Groetschel)
+ 45  gr96       GEO               96  Africa-Subproblem of 666-city TSP (Groetschel)
+ 46  hk48       EXPLICIT          48  48-city problem (Held/Karp)
+ 47  kroA100    EUC_2D           100  100-city problem A (Krolak/Felts/Nelson)
+ 48  kroA150    EUC_2D           150  150-city problem A (Krolak/Felts/Nelson)
+ 49  kroA200    EUC_2D           200  200-city problem A (Krolak/Felts/Nelson)
+ 50  kroB100    EUC_2D           100  100-city problem B (Krolak/Felts/Nelson)
+ 51  kroB150    EUC_2D           150  150-city problem B (Krolak/Felts/Nelson)
+ 52  kroB200    EUC_2D           200  200-city problem B (Krolak/Felts/Nelson)
+ 53  kroC100    EUC_2D           100  100-city problem C (Krolak/Felts/Nelson)
+ 54  kroD100    EUC_2D           100  100-city problem D (Krolak/Felts/Nelson)
+ 55  kroE100    EUC_2D           100  100-city problem E (Krolak/Felts/Nelson)
+ 56  lin105     EUC_2D           105  105-city problem (Subproblem of lin318)
+ 57  lin318     EUC_2D           318  318-city problem (Lin/Kernighan)
+ 58  lin318     EUC_2D           318  Original 318-city problem (Lin/Kernighan)
+ 59  nrw1379    EUC_2D          1379  1379 Orte in Nordrhein-Westfalen (Bachem/Wottawa)
+ 60  p654       EUC_2D           654  Drilling problem (Reinelt)
+ 61  pa561.tsp  EXPLICIT         561  561-city problem (Kleinschmidt)
+ 62  pcb1173    EUC_2D          1173  Drilling problem (Juenger/Reinelt)
+ 63  pcb3038    EUC_2D          3038  Drilling problem (Junger/Reinelt)
+ 64  pcb442     EUC_2D           442  Drilling problem (Groetschel/Juenger/Reinelt)
+ 65  pla33810   CEIL_2D        33810  Programmed logic array (Johnson)
+ 66  pla7397    CEIL_2D         7397  Programmed logic array (Johnson)
+ 67  pla85900   CEIL_2D        85900  Programmed logic array (Johnson)
+ 68  pr1002     EUC_2D          1002  1002-city problem (Padberg/Rinaldi)
+ 69  pr107      EUC_2D           107  107-city problem (Padberg/Rinaldi)
+ 70  pr124      EUC_2D           124  124-city problem (Padberg/Rinaldi)
+ 71  pr136      EUC_2D           136  136-city problem (Padberg/Rinaldi)
+ 72  pr144      EUC_2D           144  144-city problem (Padberg/Rinaldi)
+ 73  pr152      EUC_2D           152  152-city problem (Padberg/Rinaldi)
+ 74  pr226      EUC_2D           226  226-city problem (Padberg/Rinaldi)
+ 75  pr2392     EUC_2D          2392  2392-city problem (Padberg/Rinaldi)
+ 76  pr264      EUC_2D           264  264-city problem (Padberg/Rinaldi)
+ 77  pr299      EUC_2D           299  299-city problem (Padberg/Rinaldi)
+ 78  pr439      EUC_2D           439  439-city problem (Padberg/Rinaldi)
+ 79  pr76       EUC_2D            76  76-city problem (Padberg/Rinaldi)
+ 80  rat195     EUC_2D           195  Rattled grid (Pulleyblank)
+ 81  rat575     EUC_2D           575  Rattled grid (Pulleyblank)
+ 82  rat783     EUC_2D           783  Rattled grid (Pulleyblank)
+ 83  rat99      EUC_2D            99  Rattled grid (Pulleyblank)
+ 84  rd100      EUC_2D           100  100-city random TSP (Reinelt)
+ 85  rd400      EUC_2D           400  400-city random TSP (Reinelt)
+ 86  rl11849    EUC_2D         11849  11849-city TSP (Reinelt)
+ 87  rl1304     EUC_2D          1304  1304-city TSP (Reinelt)
+ 88  rl1323     EUC_2D          1323  1323-city TSP (Reinelt)
+ 89  rl1889     EUC_2D          1889  1889-city TSP (Reinelt)
+ 90  rl5915     EUC_2D          5915  5915-city TSP (Reinelt)
+ 91  rl5934     EUC_2D          5934  5934-city TSP (Reinelt)
+ 92  si1032     EXPLICIT        1032  []
+ 93  si175      EXPLICIT         175  []
+ 94  si535      EXPLICIT         535  []
+ 95  st70       EUC_2D            70  70-city problem (Smith/Thompson)
+ 96  swiss42    EXPLICIT          42  42 Staedte Schweiz (Fricker)
+ 97  ts225      EUC_2D           225  225-city problem (Juenger,Raecke,Tschoecke)
+ 98  tsp225     EUC_2D           225  A TSP problem (Reinelt)
+ 99  u1060      EUC_2D          1060  Drilling problem problem (Reinelt)
+100  u1432      EUC_2D          1432  Drilling problem (Reinelt)
+101  u159       EUC_2D           159  Drilling problem (Reinelt)
+102  u1817      EUC_2D          1817  Drilling problem (Reinelt)
+103  u2152      EUC_2D          2152  Drilling problem (Reinelt)
+104  u2319      EUC_2D          2319  Drilling problem (Reinelt)
+105  u574       EUC_2D           574  Drilling problem (Reinelt)
+106  u724       EUC_2D           724  Drilling problem (Reinelt)
+107  ulysses16  GEO               16  Odyssey of Ulysses (Groetschel/Padberg)
+108  ulysses22  GEO               22  Odyssey of Ulysses (Groetschel/Padberg)
+109  usa13509   EUC_2D         13509  The file US.lat-long.Z can be found in the directory /doc/geography.
+110  vm1084     EUC_2D          1084  1084-city problem (Reinelt)
+111  vm1748     EUC_2D          1748  1784-city problem (Reinelt)
+
+MAIN MENU
+0. Exit program
+1. Print database
+2. Limit dimension
+3. Plot one tour
+
+Choice (0-3)? 2
+Min dimension: 14
+Max dimension: 85900
+Limit value? 100
+
+MAIN MENU
+0. Exit program
+1. Print database
+2. Limit dimension
+3. Plot one tour
+
+Choice (0-3)? 1
+
+NUM  FILE NAME  EDGE TYPE  DIMENSION  COMMENT
+  1  att48      ATT               48  48 capitals of the US (Padberg/Rinaldi)
+  2  bayg29     EXPLICIT          29  29 Cities in Bavaria, geographical distances (Groetschel,Juenger,Reinelt)
+  3  bays29     EXPLICIT          29  29 cities in Bavaria, street distances (Groetschel,Juenger,Reinelt)
+  4  berlin52   EUC_2D            52  52 locations in Berlin (Groetschel)
+  5  brazil58   EXPLICIT          58  58 cities in Brazil (Ferreira)
+  6  burma14    GEO               14  14-Staedte in Burma (Zaw Win)
+  7  dantzig42  EXPLICIT          42  42 cities (Dantzig)
+  8  eil51      EUC_2D            51  51-city problem (Christofides/Eilon)
+  9  eil76      EUC_2D            76  76-city problem (Christofides/Eilon)
+ 10  fri26      EXPLICIT          26  26 Staedte (Fricker)
+ 11  gr17       EXPLICIT          17  17-city problem (Groetschel)
+ 12  gr21       EXPLICIT          21  21-city problem (Groetschel)
+ 13  gr24       EXPLICIT          24  24-city problem (Groetschel)
+ 14  gr48       EXPLICIT          48  48-city problem (Groetschel)
+ 15  gr96       GEO               96  Africa-Subproblem of 666-city TSP (Groetschel)
+ 16  hk48       EXPLICIT          48  48-city problem (Held/Karp)
+ 17  kroA100    EUC_2D           100  100-city problem A (Krolak/Felts/Nelson)
+ 18  kroB100    EUC_2D           100  100-city problem B (Krolak/Felts/Nelson)
+ 19  kroC100    EUC_2D           100  100-city problem C (Krolak/Felts/Nelson)
+ 20  kroD100    EUC_2D           100  100-city problem D (Krolak/Felts/Nelson)
+ 21  kroE100    EUC_2D           100  100-city problem E (Krolak/Felts/Nelson)
+ 22  pr76       EUC_2D            76  76-city problem (Padberg/Rinaldi)
+ 23  rat99      EUC_2D            99  Rattled grid (Pulleyblank)
+ 24  rd100      EUC_2D           100  100-city random TSP (Reinelt)
+ 25  st70       EUC_2D            70  70-city problem (Smith/Thompson)
+ 26  swiss42    EXPLICIT          42  42 Staedte Schweiz (Fricker)
+ 27  ulysses16  GEO               16  Odyssey of Ulysses (Groetschel/Padberg)
+ 28  ulysses22  GEO               22  Odyssey of Ulysses (Groetschel/Padberg)
+
+MAIN MENU
+0. Exit program
+1. Print database
+2. Limit dimension
+3. Plot one tour
+
+Choice (0-3)? 2
+Min dimension: 14
+Max dimension: 100
+Limit value? 10
+Limit value? 100
+
+MAIN MENU
+0. Exit program
+1. Print database
+2. Limit dimension
+3. Plot one tour
+
+Choice (0-3)? 3
+Number (EUC_2D)? 45
+Number (EUC_2D)? 25
+See tspPlot.png
+
+MAIN MENU
+0. Exit program
+1. Print database
+2. Limit dimension
+3. Plot one tour
+
+Choice (0-3)? 3
+Number (EUC_2D)? 22
+See tspPlot.png
+
+MAIN MENU
+0. Exit program
+1. Print database
+2. Limit dimension
+3. Plot one tour
+
+Choice (0-3)? 0
